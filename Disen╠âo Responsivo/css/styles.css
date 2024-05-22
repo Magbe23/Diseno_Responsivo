@@ -1,0 +1,48 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.logo- image {
+    width: 40%;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: gray;
+    color: white;
+}
+.menu {
+    display: non;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 20px;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 1px;
+    border: 5px solid gray;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0%;
+    gap: 30px;
+    list-style: none;
+}
+
